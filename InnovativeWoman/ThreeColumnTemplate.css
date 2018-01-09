@@ -1,0 +1,75 @@
+/* Riley Hickox */
+/* Three Column Template */
+/* January 11th 2018 */
+
+* { 
+    margin: 0;
+    padding: 0; }
+
+header { 
+    border-bottom: 2px solid #99bbff; 
+    text-align: center;}              /*aligns text in header to the center*/
+
+body {
+    width: 90%;
+    background-color: #ffebcc;   /*specifies color of the page*/
+    margin: 15px auto;        
+    border: 1px solid #99bbff; }   /*specifies details for the lines around the columns*/
+
+#sidebarA {
+    width: 24%;     /*percent makes liquid layout*/
+    height: 400px;     
+    float: left;
+    border-right: 2px solid #99bbff;
+    text-align: center; }
+    
+.facts {
+	margin: 5px        /*creates a class so the facts has a margin of 5px away from the lines*/
+	}
+
+
+main {
+    width: 50%; 
+    float: left; }      /*floats the main section to the left side of column*/
+    
+.biography {
+	margin: 5px           /*creates a class so the biography has a margin of 5px away from the lines*/
+	}
+    
+img {
+	float: right;
+	border: 3px solid #99bbff;	/*creates a solid blue line border around figure*/
+	margin: 5 px;				
+	padding-left: 0px;			/*specifies how much padding goes on left of the image*/
+	padding-right: 0px;		/*specifies how much padding goes on right of image*/
+}
+
+.pic {
+	margin: 5px         /*creates a class so the pictures has a margin of 5px away from the lines*/
+	}
+#sidebarB {
+    width: 24%;       /*the percent makes the width liquid, so it compressing when you shrink the page*/
+    height: 400px;     
+    float: right;
+    border-left: 2px solid #99bbff;
+    text-align: center; }
+
+.award {
+	margin: 5px       /*creates a class so the awards has a margin of 5px away from the lines*/
+	}
+	
+footer {
+    clear: both; 
+    border-top: 2px solid #99bbff; 
+    }
+    
+a:link, a:visited {	color: blue;		/*keeps link color blue when visited*/
+}
+
+a:hover, a:focus { color: orange;			/*makes link color red when mouse is hovered over link*/
+				   font-size: 20pt;
+}
+
+#disclaimer {
+	float: right;         /*is able to float the disclaimer and nothing else in the footer right*/
+	}
